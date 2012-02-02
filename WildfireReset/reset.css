@@ -38,7 +38,7 @@
 #main_tabs .left_tabs li a, #main_tabs .right_tabs li a 
 {
 	border-right: 0;
-	color: black;
+	color: white;
 }
 
 /* removing the styling of a selected tab */
@@ -50,14 +50,14 @@
 	border-bottom:0;
 	padding-top: 8px;
 	background-color: transparent;
-	color: black;
+	color: white;
 	font-weight:normal;
 }
 
 #main_tabs .left_tabs li.selected, #main_tabs .right_tabs li.selected
 {
 	/*background-color: transparent;*/
-	color: black;
+	color: white;
 	background-color: rgba(0, 0, 0, .2);
 		padding-bottom: 5px;
 }
@@ -101,7 +101,7 @@ h1
 	border-bottom: 0;
 }
 
-/* change the color of the text in main body in black */
+/* change the color of the text in main body to black */
 #policies_column dd
 {
 	color: black;
@@ -131,35 +131,44 @@ dt
 	color: white;
 	font-weight: bold;
 	font-size: 110%;
-	border: 0;
-	border-color: 0;
+	border: 0 !important;
+	border-color: 0 !important;
 	padding: 0;
 	margin: 0;
 }
 
 .contest-button:nth-child(1), a.contest-button:nth-child(1):hover{
+	background: rgba(0, 0, 0, .2);
 	margin: 0 !important;
 	padding: 10px 0 0 0 !important;
 	width:200px !important;
 	height:23px !important;
+	border: 0 !important;
+	border-color: 0 !important;
 
 }
 .contest-button:nth-child(2), a.contest-button:nth-child(2):hover{
+	background: rgba(0, 0, 0, .2);
 	margin: 10px 0 !important;
 	padding: 10px 0 0 0 !important;
 	width:200px !important;
 	height:23px !important;
+	border: 0 !important;
+	border-color: 0 !important;
 
 }
 .contest-button:nth-child(3), a.contest-button:nth-child(3):hover{
+	background: rgba(0, 0, 0, .2);
 	margin: 0 !important;
 	padding: 10px 0 0 0 !important;
 	width:200px !important;
 	height:23px !important;
+	border: 0 !important;
+	border-color: 0 !important;
 
 }	
 
 .contest-button:hover 
 { 	
-	background:rgba(0, 0, 0, .2); 
+	background:rgba(0, 0, 0, .4); 
 	}
