@@ -42,7 +42,7 @@
 }
 
 /* removing the styling of a selected tab */
-#main_tabs .left_tabs li a.selected, #main_tabs .right_tabs li a.selected 
+#main_tabs .left_tabs li a.selected 
 {
 	border-left: 0;
 	border-right: 0;
@@ -51,7 +51,20 @@
 	padding-top: 8px;
 	background-color: transparent;
 	color: white;
-	font-weight:normal;
+	font-weight:bold;
+}
+
+
+#main_tabs .right_tabs li a.selected 
+{
+border-left: 0;
+	border-right: 0;
+	border-top: 0;
+	border-bottom:0;
+	padding-top: 8px;
+	background-color: transparent;
+	color: white;
+	font-weight:normal;	
 }
 
 #main_tabs .left_tabs li.selected, #main_tabs .right_tabs li.selected
@@ -59,12 +72,12 @@
 	/*background-color: transparent;*/
 	color: white;
 	background-color: rgba(0, 0, 0, .2);
-		padding-bottom: 5px;
+	padding-bottom: 5px;
 }
 
 #main_tabs .right_tabs li.selected
 {
-	margin-left:-3px;
+	margin-left:0px;
 }
 
 #main_tabs .right_tabs
@@ -76,7 +89,7 @@
 #main_tabs .left_tabs
 {
 	background-color: rgba(0, 0, 0, .2);
-	padding-right: 63px;
+	padding-right: 60px;
 }
 
 /* MAIN AREA - DETAILS */
@@ -112,14 +125,20 @@ h1
 dt
 {
 	font-size: 2em;
-	color: #5d5d5d;
+	color: rgba(164, 76, 26, .8);
+}
+
+/* Changing the color of links */
+a
+{
+	color: white;
 }
 
 /* Hiding the contest buttons */
 /*.contest-button
 {
 	display: none;
-*/}
+*/
 
 /*Restyling the contest buttons */
 .contest-button, .vote-button, .view-entries-button, .invite-friends-button, .send_invite_email_button, #email_coupon_button_container .contest-button, #publish_newsfeed_link
