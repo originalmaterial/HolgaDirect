@@ -94,6 +94,12 @@ border-left: 0;
 
 /* MAIN AREA - DETAILS */
 
+/* reformatting the indenting of the numbered list */
+.textile ul, .textile ol 
+{
+	padding-left: 15px;
+}
+
 /* removing the self referential h1 */
 h1
 {
@@ -105,6 +111,7 @@ h1
 {
 	background:url("http://f.cl.ly/items/1r17381E1k3T0a2R192I/760px-sph_03.jpg") no-repeat left top; /*fix image hosting before going live*/
 	border-top: 0;
+	padding-bottom: 50px;
 }
 
 /* removing the white border around the columns and background color of contest image */
@@ -191,3 +198,161 @@ a
 { 	
 	background:rgba(0, 0, 0, .4); 
 	}
+
+/* FOOTER */
+
+/*fixing the text color, link color, and background*/
+
+#contest_footnote, #contest_footnote a
+{
+	color: gray;
+	background-color:transparent;
+	margin-top:25px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+/* PARTICIPATE */
+
+input, textarea, select 
+{
+	border: 0;
+	border-image: initial;
+}
+
+.legend
+{
+	top: 228px;
+	left: -450px;
+}
+
+ul.submenu 
+{
+	margin-bottom: -55px;
+	z-index: 1;
+}
+
+ul.submenu li
+{
+	margin-left:-2px;
+}
+
+ul.submenu li.selected
+{
+	background: rgba(0, 0, 0, .2);	
+	border:0;
+}
+
+.entry_form_section 
+{
+	padding: 0;
+	margin: 20px 30px;
+	border-bottom: 0;
+	background-color: transparent;
+}
+
+#entry_form_submit.button-to 
+{
+	padding: 20px 35px;
+	margin: 20px 30px;
+	border-bottom: 0;
+	background-color: transparent;
+	border: 0;
+	text-align: center;
+	border-image: initial;
+}
+
+#entry_form_submit.button-to input 
+{
+	padding: 5px 45px;
+	color: white;
+	font-weight: bold;
+	background: rgba(0, 0, 0, .2);
+	font-size: 140%;
+	cursor: pointer;
+}
+
+.question_form .question-become_a_fan 
+{
+	height: 68px;
+	padding-top: 20px;
+}
+
+.question_form label, .question_form h2, .question_form 
+{
+	color: black;
+}
+
+.spam_footnote
+{
+	font-size: 80%;
+}
+
+/* JUDGING */
+
+h3
+{
+	display: none;
+}
+
+hr
+{
+	display: none;
+}
+
+.jury_info #info_column
+{
+	padding-top: 40px;
+}
+
+#logo_column
+{
+	background-color: transparent;
+	margin-top: 40px;
+}
+
+#logo_column #countdown_box, #logo_column .sponsored
+{
+	color:white;
+}
+
+#info_column .textile
+{
+	margin-bottom: 20px;
+}
+
+.question_form .question-become_a_fan
+{
+	
+}
+
+/* WINNERS */
+
+div.flash.notice 
+{
+	background-color: transparent;
+	border-color: transparent;
+	margin-top: 60px;
+}
+
+.prize_giving h3
+{
+	display: none;
+	border: 0;
+}
+
+/* SHARE */
+
+#invite_form
+{
+	background-color:transparent;
+	border: 0 !important;
+	margin-left:20px;
+	margin-top:10px;
+}
+
+#invite_form_wrapper
+{
+	border: 0 !important;
+
+}
