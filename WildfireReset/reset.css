@@ -1,0 +1,142 @@
+i/* FIXING THE HEADER AREA */
+
+
+/* puts the correct banner at the top without height restrictions */
+#contest_title 
+{
+    height:258px;
+    margin: 0;
+    background:url("http://f.cl.ly/items/3u063p371U2y1P1Q2W3v/760px-sph_01.jpg") no-repeat left top; /*fix image hosting before going live*/
+}
+
+/* hides the banner and search for other competitions buttons */
+#contest_list_button, #contest_logo 
+{
+	display: none;
+}
+
+/* changes positions of like and send facebook buttons */
+#like_and_send 
+{
+	margin-left: 20px;
+	margin-top: -5px;
+}
+
+
+/* FIXING THE BUTTONS AREA */
+
+
+/* putting the right background in and fixing the height */
+#main_tabs 
+{
+	height: 32px;
+	margin: 0;
+	background:url("http://f.cl.ly/items/0Y3W2m2t0i2K1s3c2F0U/222_02.jpg") no-repeat left top; /*fix image hosting before going live*/
+}
+
+/* removing the border styling on the unselected tabs */
+#main_tabs .left_tabs li a, #main_tabs .right_tabs li a 
+{
+	border-right: 0;
+	color: black;
+}
+
+/* removing the styling of a selected tab */
+#main_tabs .left_tabs li a.selected, #main_tabs .right_tabs li a.selected 
+{
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+	border-bottom:0;
+	padding-top: 8px;
+	background-color:transparent;
+	color: black;
+	font-weight:bold;
+}
+
+#main_tabs .left_tabs li.selected, #main_tabs .right_tabs li.selected
+{
+	background-color:transparent;
+	color: black;
+}
+
+/* MAIN AREA - DETAILS */
+
+/* removing the self referential h1 */
+h1
+{
+	display: none;
+}
+
+/* exchanging the background color with an image */
+#main-content
+{
+	background:url("http://f.cl.ly/items/1r17381E1k3T0a2R192I/760px-sph_03.jpg") no-repeat left top; /*fix image hosting before going live*/
+	border-top: 0;
+}
+
+/* removing the white border around the columns and background color of contest image */
+#prize_column, #policies_column, #contest_image
+{
+	background-color: transparent;
+	border-bottom: 0;
+}
+
+/* change the color of the text in main body in black */
+#policies_column dd
+{
+	color: black;
+}
+
+/* Changing the size of the prizes text */
+dt
+{
+	font-size: 2em;
+	color: #5d5d5d;
+}
+
+/* Restyling the contest buttons */
+.contest-button, .vote-button, .view-entries-button, .invite-friends-button, .send_invite_email_button, #email_coupon_button_container .contest-button, #publish_newsfeed_link
+{
+	display: block;
+	/*padding: 8px 25px 0 0;*/
+	/*min-width: 7em;*/
+	background: rgba(0, 0, 0, .6);
+	width:200px;
+	height:23px;
+	color: white;
+	font-weight: bold;
+	font-size: 110%;
+	border: 0;
+	border-color: none;
+	padding: 0;
+	margin: 0;
+	/*margin-bottom: 20px;*/
+}
+
+.contest-button:nth-child(1), a.contest-button:nth-child(1):hover{
+	margin: 0 !important;
+	padding: 10px 0 0 0 !important;
+	width:200px !important;
+	height:23px !important;
+
+}
+.contest-button:nth-child(2), a.contest-button:nth-child(2):hover{
+	margin: 10px 0 !important;
+	padding: 10px 0 0 0 !important;
+	width:200px !important;
+	height:23px !important;
+
+}
+.contest-button:nth-child(3), a.contest-button:nth-child(3):hover{
+	margin: 0 !important;
+	padding: 10px 0 0 0 !important;
+	width:200px !important;
+	height:23px !important;
+
+}	
+
+.contest-button:hover 
+{ 	
+	background:rgba(0, 0, 0, .3); 
+	}
