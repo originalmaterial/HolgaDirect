@@ -94,7 +94,7 @@ border-left: 0;
 #main_tabs .left_tabs
 {
 	background-color: rgba(0, 0, 0, .2);
-	padding-right: 15px;
+	width:720px;
 }
 
 /* MAIN AREA - DETAILS */
@@ -124,9 +124,8 @@ h1
 {
 	background:url("http://www.holgadirect.com/images/facebook/huwybs/04.png");
 	background-repeat:no-repeat;
-	background-position-x:0;
-	background-position-y:425px;
-	padding-bottom:480px;
+	background-position:0 425px;
+	padding-bottom:510px;
 }
 
 
@@ -243,7 +242,7 @@ input, textarea, select
 
 ul.submenu 
 {
-	margin-bottom: -55px;
+	margin-bottom: -60px;
 	z-index: 1;
 }
 
@@ -414,3 +413,103 @@ div.flash.notice
 	vertical-align:-12px;
 }
 
+/* MESS - LIVE FIXING */
+
+#media_create_form.question_form
+{
+	padding-top:20px;
+}
+
+.voteable_entry
+{
+	background-color: rgba(0,0,0,.2);
+	border-bottom:0 !important;
+	border: 0 !important;
+}
+
+voteable_entry .entry_holder
+{
+	border: 0 !important;
+	padding-left: 5px !important;
+}
+
+.entries_page h2
+{
+	border-bottom: 0 !important;
+}
+
+table.video_entry_list
+{
+	border-bottom: 0 !important;
+}
+
+.my_wallkit_title
+{
+	background-color:transparent;
+	color: black;
+	border-top: 0 !important;
+	border-bottom: 0 !important;
+}
+
+.my_wallkit_subtitle
+{
+	background-color:transparent;
+	border-top: 0 !important;
+	border-bottom: 0 !important;
+	color: black;
+}
+
+.my_wallkit_new, .my_wallkit_new .my_wallkit_form  {
+border-bottom: 0 !important;
+padding: 10px;
+background-color: transparent !important;
+}
+
+.my_wallkit_new .my_wallkit_form .inputsubmit
+{
+	background-color: rgba(0,0,0,.2) !important;
+	color:white;
+	font-weight:bold;
+}
+
+.entry_details_page .voteable_entry {
+margin: 30px 35px;
+}
+
+
+.video_entry_list .video_metadata .media_title {
+min-height: 2.4em;
+height: 2.4em;
+}
+
+.my_wallkit_post
+{
+	width: 720px;
+	margin-right:20px;
+	margin-left:0px !important;
+	background-color: 0 !important;
+	color: white;
+	font-size: 120%;
+}
+
+.my_wallkit_post .my_wallkit_postcontent {
+margin-left: 30px;
+background-color: rgba(0, 0, 0, .2);
+padding-left: 30px;
+margin-top: 10px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius:10px;
+}
+
+.my_wallkit_post .my_wallkit_postcontent h4
+{
+	background: transparent;
+	border-top: 0 !important;
+	border-bottom: 0 !important;
+}
+
+.my_wallkit_post div.my_wallkit_actionset
+{
+	border-bottom: 0 !important;
+}
