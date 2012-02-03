@@ -1,12 +1,16 @@
 /* FIXING THE HEADER AREA */
 
+body
+{
+	text-shadow: 1px 1px 2px rgba(0,0,0,.4);
+}
 
 /* puts the correct banner at the top without height restrictions */
 #contest_title 
 {
     height:258px;
     margin: 0;
-    background:url("http://f.cl.ly/items/3u063p371U2y1P1Q2W3v/760px-sph_01.jpg") no-repeat left top; /*fix image hosting before going live*/
+    background:url("http://www.holgadirect.com/images/facebook/huwybs/01.jpg") no-repeat left top;
 }
 
 /* hides the banner and search for other competitions buttons */
@@ -31,7 +35,7 @@
 {
 	height: 32px;
 	margin: 0;
-	background:url("http://f.cl.ly/items/0Y3W2m2t0i2K1s3c2F0U/222_02.jpg") no-repeat left top; /*fix image hosting before going live*/
+	background:url("http://www.holgadirect.com/images/facebook/huwybs/02.jpg") no-repeat left top;
 }
 
 /* removing the border styling on the unselected tabs */
@@ -84,12 +88,13 @@ border-left: 0;
 {
 	background-color: rgba(0, 0, 0, .2);
 	padding-bottom: 5px;
+	display:none;
 }
 
 #main_tabs .left_tabs
 {
 	background-color: rgba(0, 0, 0, .2);
-	padding-right: 60px;
+	padding-right: 15px;
 }
 
 /* MAIN AREA - DETAILS */
@@ -109,12 +114,22 @@ h1
 /* exchanging the background color with an image */
 #main-content
 {
-	background:url("http://f.cl.ly/items/1r17381E1k3T0a2R192I/760px-sph_03.jpg") no-repeat left top; /*fix image hosting before going live*/
+	background:url("http://www.holgadirect.com/images/facebook/huwybs/03.jpg") no-repeat left top;
 	border-top: 0;
 	padding-bottom: 50px;
 }
 
-/* removing the white border around the columns and background color of contest image */
+/* removing the white border around the columns and background color of contest image + adding another image under the left side buttons */
+#prize_column
+{
+	background:url("http://www.holgadirect.com/images/facebook/huwybs/04.png");
+	background-repeat:no-repeat;
+	background-position-x:0;
+	background-position-y:425px;
+	padding-bottom:480px;
+}
+
+
 #prize_column, #policies_column, #contest_image
 {
 	background-color: transparent;
